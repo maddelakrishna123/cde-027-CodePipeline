@@ -3,7 +3,6 @@ version: 0.2
 phases:
   build:
     commands:
-    
       - echo Entered the build phase...
       - mvn clean package
   post_build:
@@ -11,5 +10,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-     - target/cde-027-code-pipeline-git.jar
+    - target/cde-027-code-pipeline-git.jar
   discard-paths: yes
